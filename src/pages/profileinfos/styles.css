@@ -1,0 +1,41 @@
+
+#userProfile-infosProfile {
+    height: 55vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column ;
+}
+
+#userProfile-ImgProfile {
+    
+}
+
+#userProfile-ImgProfile img{
+    height: 10vh;
+}
+
+
+#change{
+    position: absolute;
+    top:0vh;
+    left: 2vh;
+    cursor: pointer;
+}
+
+#userProfile-name{
+  font-size: 1.5rem;
+}
+
+#userProfile-jobPoints {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#jb{
+    display: flex;
+}
+
+

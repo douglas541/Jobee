@@ -5,6 +5,9 @@ import changeIcon from '../../assets/images/ChangeIcon.svg'
 import ImageJobPoints from '../../assets/images/JobPoints.svg'
 import PostComp from '../../components/PostComp'
 
+
+import './styles.css'
+
 function UserProfile(){
    
    return(
@@ -13,33 +16,42 @@ function UserProfile(){
             url = "https://avatars0.githubusercontent.com/u/56011104?s=400&u=05c64bc97220f522589077a3d8f88439b908cf2c&v=4"
          />
 
-         <div id="infos-profile">
-            <img id="change" src={changeIcon} />
+         <div id="userProfile-page-nav-container">
+            <nav id="userProfile-page-nav">
+               <Link to="/MainSocial">Social</Link>
+               <Link to="/MainEmprego">Empregos</Link>
+               <Link to="#"><b>Rank</b></Link>
+               </nav>
+         </div>
 
-            <ProfileImg 
-               url = "https://avatars0.githubusercontent.com/u/56011104?s=400&u=05c64bc97220f522589077a3d8f88439b908cf2c&v=4"
-               size = "13"
-               link = "#"
-            />
+         <div id="userProfile-infosProfile">
+
+            <div id="imgProfile">
+               <img id="change" src={changeIcon} />
+               <ProfileImg 
+                  url = "https://avatars0.githubusercontent.com/u/56011104?s=400&u=05c64bc97220f522589077a3d8f88439b908cf2c&v=4"
+                  size = "13"
+                  link = "#"
+               />
+            </div>
                
+            <div id="userProfile-name">
+               <label>Yuri Reis</label>
+            </div>   
 
-            <div id="job-points">
-               <div id="img-u">
+            <div id="userProfile-jobPoints">
+         
+               <div id="jb">
                   <img  src={ ImageJobPoints }/>
-               </div>
-               
-               <div id="jb-u">
                   <label >Job Points</label>
-              
                </div>
                
-               <div id="pontos-u">
+               <div id="points">
                   <label>47</label>
                </div>
-               
-              
               
             </div>
+
          </div>
          <PostComp 
             username= "Yuri Reis"
