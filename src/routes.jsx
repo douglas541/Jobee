@@ -13,12 +13,12 @@ function Routes() {
    return (
       <BrowserRouter>
          <Route path="/" exact component={Landing} />
-         <Route path="/Login" component={Login} />
-         <Route path="/Register" component={Register} />
-         <Route path="/MainSocial" component={MainSocial} />
-         <Route path="/MainEmprego" component={MainEmprego} />
-         <Route path="/MainRank" component={MainRank} />
-         <Route path="/UserProfile" component={UserProfile} />
+         <Route path="/login" component={Login} />
+         <Route path="/register" component={Register} />
+         <Route path="/social" component={MainSocial} />
+         <Route path="/empregos" component={MainEmprego} />
+         <Route path="/rank" component={MainRank} />
+         <Route path="/profile" component={UserProfile} />
       </BrowserRouter>
    );
 }

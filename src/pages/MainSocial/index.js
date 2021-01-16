@@ -1,5 +1,4 @@
-import { computeHeadingLevel } from '@testing-library/react'
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import Header from '../../components/Header'
 import PostComp from '../../components/PostComp'
@@ -7,26 +6,26 @@ import PostComp from '../../components/PostComp'
 import './styles.css'
 
 function Main() {
-   const postCompsInfos = [{
+   const [postComps, setComps] = useState([{
       username: "Yuri Reis",
       numLike: "+17",
       content: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
       url: "https://avatars.githubusercontent.com/YuriReiss"
    },
    {
-      username: "Yuri Reis",
-      numLike: "+17",
+      username: "Douglas Sousa",
+      numLike: "+14",
       content: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
-      url: "https://avatars.githubusercontent.com/YuriReiss"
+      url: "https://avatars.githubusercontent.com/douglas541"
    },
    {
-      username: "Yuri Reis",
-      numLike: "+17",
+      username: "Isaac Brasil",
+      numLike: "+9",
       content: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
-      url: "https://avatars.githubusercontent.com/YuriReiss"
-   }]
+      url: "https://avatars.githubusercontent.com/isaacbrasil"
+   }]);
 
-   const postComps = postCompsInfos.map((Comps) => {
+   const postList = postComps.map((Comps) => {
       return (
          <div key={Comps.username}>
             <PostComp
@@ -51,35 +50,14 @@ function Main() {
                <div id="main-page-nav-container">
                   <nav id="main-page-nav">
                      <Link to="#"><b>Social</b></Link>
-                     <Link to="/MainEmprego">Empregos</Link>
-                     <Link to="/MainRank">Rank</Link>
+                     <Link to="/empregos">Empregos</Link>
+                     <Link to="/rank">Rank</Link>
                   </nav>
                </div>
 
                <div id="main-post-container">
 
-                  <PostComp
-                     username="Yuri Reis"
-                     numLike="+17"
-                     content="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
-                     url="https://avatars.githubusercontent.com/YuriReiss"
-                  />
-
-                  <PostComp
-                     username="Yuri Reis"
-                     numLike="+17"
-                     content="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
-                     url="https://avatars.githubusercontent.com/YuriReiss"
-                  />
-
-                  <PostComp
-                     username="Yuri Reis"
-                     numLike="+17"
-                     content="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
-                     url="https://avatars.githubusercontent.com/YuriReiss"
-                  />
-                  
-                  {postComps}
+                  {postList}
 
                </div>
             </div>

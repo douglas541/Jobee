@@ -33,13 +33,13 @@ function Login() {
                <Button
                   color="green"
                   label="Login"
-                  link="/MainSocial"
+                  link="/social"
                   buttonCallback={handleClick}
                />
 
                <div id="login-register-area">
                   <p>Não tem conta?</p>
-                  <Link to="/Register">cadastre-se</Link>
+                  <Link to="/register">cadastre-se</Link>
                </div>
 
                <Link to="/" id="login-return">voltar</Link>
