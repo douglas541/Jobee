@@ -1,3 +1,4 @@
+import { computeHeadingLevel } from '@testing-library/react'
 import React from 'react'
 import { Link } from 'react-router-dom'
 import Header from '../../components/Header'
@@ -6,6 +7,38 @@ import PostComp from '../../components/PostComp'
 import './styles.css'
 
 function Main() {
+   const postCompsInfos = [{
+      username: "Yuri Reis",
+      numLike: "+17",
+      content: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+      url: "https://avatars.githubusercontent.com/YuriReiss"
+   },
+   {
+      username: "Yuri Reis",
+      numLike: "+17",
+      content: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+      url: "https://avatars.githubusercontent.com/YuriReiss"
+   },
+   {
+      username: "Yuri Reis",
+      numLike: "+17",
+      content: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+      url: "https://avatars.githubusercontent.com/YuriReiss"
+   }]
+
+   const postComps = postCompsInfos.map((Comps) => {
+      return (
+         <div key={Comps.username}>
+            <PostComp
+               username={Comps.username}
+               numLike={Comps.numLike}
+               content={Comps.content}
+               url={Comps.url}
+            />
+         </div>
+      );
+   })
+
    return (
       <div>
          <div id="main-page">
@@ -45,6 +78,9 @@ function Main() {
                      content="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
                      url="https://avatars.githubusercontent.com/YuriReiss"
                   />
+                  
+                  {postComps}
+
                </div>
             </div>
          </div>
