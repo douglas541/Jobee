@@ -1,9 +1,15 @@
 import React from 'react';
+import Header from '../../components/Header/index';
 
-function Register(){
-   return(
-      <div>
-         <p>Register</p>
+import './styles.css'
+
+function Register() {
+   return (
+      <div id="register-page">
+         <Header
+            url="https://avatars.githubusercontent.com/YuriReiss"
+         />
+         <p>Informações Pessoais</p>
       </div>
    )
 }

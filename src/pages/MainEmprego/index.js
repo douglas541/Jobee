@@ -60,9 +60,9 @@ function MainSocial() {
         </div>
 
         <div id="main-emprego-post-container">
-
+          
           {empregoList}
-
+          
         </div>
       </div>
     </div>
