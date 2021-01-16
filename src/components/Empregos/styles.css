@@ -1,0 +1,80 @@
+#container-emprego {
+  background-color: var(--color-background);
+  display: grid;
+  grid-template-areas: "profile-emp vaga-emp jobPoints-emp " "content-emp content-emp content-emp" "botao-emp botao-emp botao-emp";
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 10px;
+  width: 90vw;
+  max-width: 400px;
+  max-height: 400px;
+  margin-bottom: 1rem;
+  padding: 1rem 0;
+}
+
+#imagem-empresa-emprego {
+  /* border-radius: 1rem; */
+  /* padding: 0.5rem; */
+  border-radius: 50%;
+  grid-area: profile-emp;
+  align-content: center;
+  justify-content: center;
+}
+
+#titulo-emprego {
+  padding: 0px;
+  margin: 0px;
+  grid-area: vaga-emp;
+  align-content: center;
+  justify-content: center;
+}
+
+#titulo-emprego {
+  /* padding-top: 10px; */
+  font-family: "roboto", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+#job-points {
+  display: flex;
+  flex-direction: row;
+  /* padding: 0.2rem; */
+  grid-area: jobPoints-emp;
+  align-content: center;
+  justify-content: center;
+}
+
+#job-points img {
+  width: 30px;
+}
+
+#infos-emprego {
+  padding: 0.8rem 0;
+  grid-area: content-emp;
+  place-self: center;
+  text-align: justify;
+}
+
+#infos-emprego li {
+  /* padding: 0.05rem 0; */
+  font-family: "nunito", sans-serif;
+  font-size: 0.9rem;
+}
+
+button {
+  cursor: pointer;
+}
+
+#button-detalhes {
+  font-family: nunito, sans-serif;
+  font-size: 18px;
+  grid-area: botao-emp;
+  /* padding: 1rem; */
+  align-content: center;
+  align-items: center;
+  align-self: center;
+  grid-area: botao-emp;
+  place-self: center;
+}

@@ -1,0 +1,17 @@
+#horizontal-logo-container {
+   display: flex;
+   /* background-color: red; */
+   /* width: 55%; */
+} 
+
+#horizontal-logo-container img {
+   width: 2.6rem;
+   margin-right: 6px;
+}
+
+#horizontal-logo-container h1 {
+   font-family: 'Nunito', sans-serif;
+   font-weight: 400;
+   font-size: 1.8rem;
+   color: var(--color-font-primary);
+}

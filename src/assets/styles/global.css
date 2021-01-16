@@ -1,0 +1,50 @@
+#root {
+  font-size: 62.5%;
+  --color-primary-light: #daecf2;
+  --color-primary-dark: #49c9f2;
+  --color-secondary: #6fcf97;
+  --color-font-primary: #333333;
+  --color-font-blue: #2f80ed;
+  --color-background: #f2f2f2;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100vh;
+  margin: 0px;
+  padding: 0px;
+}
+
+#root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body,
+input,
+p,
+button,
+textarea {
+  font-weight: 400;
+  font-size: 1.6rem;
+  font-family: "Roboto", sans-serif;
+  color: var(--color-font-primary);
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* background-color: var(--color-primary-light); */
+}

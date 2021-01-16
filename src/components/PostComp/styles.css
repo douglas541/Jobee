@@ -1,0 +1,46 @@
+#container-post {
+  background-color: var(--color-background);
+  display: grid;
+  grid-template-areas: "profile username " "like content";
+  align-items: center;
+  border-radius: 10px;
+  width: 90vw;
+  /* height: 26vh; */
+  max-width: 400px;
+  max-height: 200px;
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+
+#image-profile-post {
+  /* padding: 0.5rem; */
+  grid-area: profile;
+  place-self: center;
+}
+
+#like-post {
+  /* padding: 0.5rem; */
+  grid-area: like;
+  place-self: center;
+}
+
+#content-post {
+  padding: 0.8rem 0px 0.8rem 0.8rem;
+  grid-area: content;
+  place-self: center;
+  overflow: none;
+}
+
+#content-post p {
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+#username-post {
+  grid-area: username;
+  place-self: center;
+}
+
+#username-post p {
+  font-size: 1.4rem;
+}

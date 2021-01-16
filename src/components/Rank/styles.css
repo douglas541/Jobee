@@ -1,0 +1,14 @@
+#container-rank {
+  background-color: var(--color-background);
+  max-height: 10rem;
+  padding: 0.15rem 0.6rem;
+  margin: 5px;
+  border-radius: 10px;
+  width: 90vw;
+  max-width: 400px;
+}
+
+#container-rank p {
+  font-family: "nunito", sans-serif;
+  font-size: 0.9rem !important;
+}
