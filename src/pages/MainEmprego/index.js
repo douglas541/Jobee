@@ -46,7 +46,10 @@ function MainSocial() {
 
   return (
     <div id="main-emprego-page">
-      <Header url="https://avatars.githubusercontent.com/YuriReiss" />
+      <Header
+        url="https://avatars.githubusercontent.com/YuriReiss"
+        link="/profile"
+      />
 
       <div id="main-emprego-page-container">
         <div id="main-emprego-page-nav-container">
@@ -60,9 +63,9 @@ function MainSocial() {
         </div>
 
         <div id="main-emprego-post-container">
-          
+
           {empregoList}
-          
+
         </div>
       </div>
     </div>

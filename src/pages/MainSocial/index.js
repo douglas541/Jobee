@@ -43,6 +43,7 @@ function Main() {
          <div id="main-page">
             <Header
                url="https://avatars.githubusercontent.com/YuriReiss"
+               link="/profile"
             />
 
             <div id="main-page-container">

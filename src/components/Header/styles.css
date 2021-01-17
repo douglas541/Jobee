@@ -15,6 +15,11 @@
    align-items: center;
 }
 
-#header-logout-img img{
+#header-logout-img img {
    width: 1.5rem;
+}
+
+#backArrow img {
+   width: 1.4rem;
+   color: var(--color-font-primary);
 }

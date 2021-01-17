@@ -4,20 +4,37 @@ import HorizontalLogo from '../HorizontalLogo'
 import ProfileImg from '../ProfileImg'
 
 import logoutImg from '../../assets/images/logout.svg'
+import backArrow from '../../assets/images/backArrow.svg'
 import './styles.css'
 
 function Header(props) {
-   const { url } = props;
+   const { url, link } = props;
+
+   let prop;
+
+   if (url != "") {
+      prop = (
+         <ProfileImg
+            url={url}
+            size="2"
+            link={link}
+         />
+      );
+   } else {
+      prop = (
+         <div>
+            <Link to="/social" id="backArrow">
+               <img src={backArrow} />
+            </Link>
+         </div>
+      )
+   }
 
    return (
       <div id="header-wrapper">
          <header id="header-component">
 
-            <ProfileImg
-               url={url}
-               size="2"
-               link="#"
-            />
+            {prop}
 
             <HorizontalLogo />
 

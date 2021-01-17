@@ -31,7 +31,7 @@ function Profile() {
 
    const postList = postComps.map((Comps) => {
       return (
-         <div key={Comps.username}>
+         <div key={Comps.content}>
             <PostComp
                username={Comps.username}
                numLike={Comps.numLike}
@@ -45,12 +45,13 @@ function Profile() {
    return (
       <div id="userProfile-page">
          <Header
-            url="https://avatars0.githubusercontent.com/u/56011104?s=400&u=05c64bc97220f522589077a3d8f88439b908cf2c&v=4"
+            url=""
+            link="/social"
          />
          <div id="userProfile-page-container">
             <div id="userProfile-page-nav-container">
                <nav id="userProfile-page-nav">
-                  <Link to="/UserProfile">Social</Link>
+                  <Link to="/profile"><b>Social</b></Link>
                   <Link to="#">Informações</Link>
                </nav>
             </div>

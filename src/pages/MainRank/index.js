@@ -33,6 +33,7 @@ function MainRank() {
          <div id="main-rank-page">
             <Header
                url="https://avatars.githubusercontent.com/YuriReiss"
+               link="/profile"
             />
 
             <div id="main-rank-page-container">

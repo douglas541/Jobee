@@ -33,7 +33,7 @@
 }
 
 #landing-buttons {
-  height: 10.5vh;
+  height: 6.5rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
