@@ -6,4 +6,4 @@ Para o desenvolvimento do front-end da aplicação estamos utilizando o framewor
 
 A plataforma terá duas interfaces, uma pro empregador e uma para quem está em busca de alguma oportunidade. O usuário escolhe na hora do cadastro em qual ele se encaixa, informando seus dados e completando seu perfil. O candidato às vagas por exemplo informa: área de atuação, habilidades, áreas de conhecimento, que tipo de oportunidade e vaga procura, tudo isso será utilizado para filtrar os dados posteriormente. A interface do empregador possibilita a postagem de vagas disponíveis, classificando por tipo de vaga, podendo ser: freelance, estágio ou CLT (dessa forma podem ser contemplados tanto candidatos que estão buscando construir um portfólio e experiência quanto aqueles que buscam um emprego fixo), tem de ser disponibilizados também todos os outros dados sobre o serviço, assim os candidatos podem demonstrar interesse e entrar em contato com o empregador.
 
-Link do deploy da aplicação: https://jobee-frontend.herokuapp.com/
+Link do deploy estático da aplicação: https://jobee-frontend.herokuapp.com/
