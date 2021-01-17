@@ -19,6 +19,7 @@
   height: 80vh;
   /* width: calc(60vw + 7rem);
    max-width: 700px; */
+  /* margin-bottom: 1rem; */
 }
 
 #main-rank-page-nav-container {
@@ -48,8 +49,6 @@
   display: flex;
   justify-content: center;
   width: 100%;
-  height: 100%;
-  max-height: 10vh;
 }
 
 #main-rank-page-subnav-container a {
@@ -62,5 +61,8 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 60%;
+  width: 70vw;
+  max-width: 400px;
+  position: relative;
+  top: -0.8rem;
 }
