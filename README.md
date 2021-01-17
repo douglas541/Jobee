@@ -1,7 +1,5 @@
 # Jobee
 
-Sobre o FirtsJob:
-
 First Job é uma plataforma disponível mobile e web que conecta jovens que estão em busca de adquirir experiência, construir portfólio e procurar emprego. Além disso a plataforma possibilita a geração de Networking através da interação com outros jovens que também estão na mesma jornada, agregando mais conhecimento e sendo um meio de troca de experiências e interação.
 
 Estamos utilizando a framework React. Para o desenvolvimento daremos prioridade para as linguagens JavaScript, PHP e SQL. Como sistema gerenciador de banco de dados, estamos utilizando o MySQL. Além disso, para a prototipação UI utilizamos o Figma e para modelagem do banco de dados estamos utilizando o MySQL WorkBench. Por fim, para a comunicação entre front-end e back-end utilizaremos o modelo Rest API.
