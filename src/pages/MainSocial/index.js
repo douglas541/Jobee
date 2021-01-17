@@ -23,6 +23,24 @@ function Main() {
       numLike: "+9",
       content: "7 dicas essenciais para o novo profissional de TI (extra: meus 3 palpites de frameworks para aprender em 2021)",
       url: "https://avatars.githubusercontent.com/isaacbrasil"
+   },
+   {
+      username: "Yuri Reis",
+      numLike: "+9",
+      content: "7 dicas essenciais para o novo profissional de TI (extra: meus 3 palpites de frameworks para aprender em 2021)",
+      url: "https://avatars.githubusercontent.com/YuriReiss"
+   },
+   {
+      username: "João Victor",
+      numLike: "+9",
+      content: "7 dicas essenciais para o novo profissional de TI (extra: meus 3 palpites de frameworks para aprender em 2021)",
+      url: "https://instagram.fgyn3-1.fna.fbcdn.net/v/t51.2885-19/s150x150/73387412_774779042984351_3504585325173276672_n.jpg?_nc_ht=instagram.fgyn3-1.fna.fbcdn.net&_nc_ohc=7JS_ZKW8UPMAX9ix-Rh&tp=1&oh=7a8580041c405bb07cd6d1c159b322b7&oe=602D4AB7"
+   },
+   {
+      username: "Douglas Sousa",
+      numLike: "+9",
+      content: "7 dicas essenciais para o novo profissional de TI (extra: meus 3 palpites de frameworks para aprender em 2021)",
+      url: "https://avatars.githubusercontent.com/douglas541"
    }]);
 
    const postList = postComps.map((Comps) => {

@@ -23,6 +23,7 @@
 
 #userProfile-infosProfile-container {
     height: 40vh;
+    min-height: 300px;
     max-height: 340px;
     /* width: 370px; */
     display: flex;
@@ -52,8 +53,8 @@
     cursor: pointer;
 }
 
-#userProfile-name {
-    font-size: 1.7rem;
+#userProfile-name label{
+    font-size: 1.5rem;
     font-weight: 600;
 }
 

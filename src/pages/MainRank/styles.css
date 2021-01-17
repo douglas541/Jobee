@@ -20,6 +20,7 @@
   /* width: calc(60vw + 7rem);
    max-width: 700px; */
   /* margin-bottom: 1rem; */
+  overflow: auto;
 }
 
 #main-rank-page-nav-container {
