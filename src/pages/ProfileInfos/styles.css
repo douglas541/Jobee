@@ -1,41 +1,127 @@
-
-#userProfile-infosProfile {
-    height: 55vh;
+#userProfile-page {
+    width: 100vw;
+    height: 100vh;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    flex-direction:column ;
-}
-
-#userProfile-ImgProfile {
-    
-}
-
-#userProfile-ImgProfile img{
-    height: 10vh;
-}
-
-
-#change{
-    position: absolute;
-    top:0vh;
-    left: 2vh;
-    cursor: pointer;
-}
-
-#userProfile-name{
-  font-size: 1.5rem;
-}
-
-#userProfile-jobPoints {
-    width: 80%;
-    display: flex;
     justify-content: space-between;
 }
 
+#userProfile-page-container {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-#jb{
+#userProfile-posts-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 0.6rem;
+}
+
+#userProfile-infosProfile-container {
+    height: 40vh;
+    max-height: 340px;
+    /* width: 370px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    color: var(--color-font-primary);
+}
+
+#UserProfile-imgs-container {
+    display: flex;
+    align-items: flex-start;
+    max-width: 208px;
+}
+
+#imgProfile {
+    position: relative;
+    left: -45px;
+}
+
+/* #UserProfile-imgs-container img {
+    position: relative;
+    top: -50px;
+} */
+
+#change {
+    z-index: 1;
+    cursor: pointer;
+}
+
+#userProfile-name {
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+
+#userProfile-jobPoints-container {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#jb {
+    align-items: center;
     display: flex;
 }
 
+#jb label {
+    margin-left: 5px;
+}
 
+#userProfile-page-nav-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    max-width: 300px;
+    max-height: 50px;
+    color: var(--color-font-primary);
+}
+
+#userProfile-page-nav-container a {
+    color: var(--color-font-primary);
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+#userProfile-page-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 5vh;
+}
+
+.userProfile-infoitems {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90vw;
+    max-width: 700px;
+    margin-bottom: 0.6rem;
+    border-bottom: solid;
+    border-width: 1px;
+    color: var(--color-font-primary);
+}
+
+#userProfile-editProfile-button {
+    width: 90vw;
+    max-width: 700px;
+    display: flex;
+    justify-content: flex-end;
+    color: var(--color-font-blue);
+    text-decoration: none;
+}
+
+#userProfile-graphImage img{
+    width: 90vw;
+    max-width: 700px;
+    margin: 1rem 0;
+}

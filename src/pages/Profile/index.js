@@ -52,7 +52,7 @@ function Profile() {
             <div id="userProfile-page-nav-container">
                <nav id="userProfile-page-nav">
                   <Link to="/profile"><b>Social</b></Link>
-                  <Link to="#">Informações</Link>
+                  <Link to="/profileinfos">Informações</Link>
                </nav>
             </div>
 

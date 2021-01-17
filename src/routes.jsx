@@ -8,6 +8,7 @@ import Profile from './pages/Profile'
 import MainSocial from './pages/MainSocial'
 import MainRank from './pages/MainRank'
 import MainEmprego from './pages/MainEmprego'
+import ProfileIfos from './pages/ProfileInfos'
 
 function Routes() {
    return (
@@ -19,6 +20,7 @@ function Routes() {
          <Route path="/empregos" component={MainEmprego} />
          <Route path="/rank" component={MainRank} />
          <Route path="/profile" component={Profile} />
+         <Route path="/profileinfos" component={ProfileIfos} />
       </BrowserRouter>
    );
 }
