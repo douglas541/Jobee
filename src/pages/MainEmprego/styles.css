@@ -22,6 +22,10 @@
   overflow: auto;
 }
 
+#main-emprego-post-container::-webkit-scrollbar {
+  display: none;
+}
+
 #main-emprego-page-nav-container {
   display: flex;
   justify-content: space-between;

@@ -88,6 +88,8 @@ function Profile() {
 
             </div>
 
+            <p id="userProfile-ultimasPostagens">Últimas postagens</p>
+
             <div id="userProfile-posts-container">
 
                {postList}
