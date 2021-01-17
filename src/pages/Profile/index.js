@@ -9,7 +9,7 @@ import PostComp from '../../components/PostComp'
 
 import './styles.css'
 
-function UserProfile(){
+function Profile(){
    
    return(
       <div id="userProfile-page">
@@ -80,4 +80,4 @@ function UserProfile(){
    );
 }
 
-export default UserProfile;
+export default Profile;

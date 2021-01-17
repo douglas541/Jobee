@@ -9,19 +9,19 @@ function Main() {
    const [postComps, setComps] = useState([{
       username: "Yuri Reis",
       numLike: "+17",
-      content: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+      content: "Uma breve descrição a respeito do Design responsivo para web. Técnicas para aumentar a produtividade na área.",
       url: "https://avatars.githubusercontent.com/YuriReiss"
    },
    {
       username: "Douglas Sousa",
       numLike: "+14",
-      content: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+      content: "O que as empresas de Marketing buscam em novos profissionais. Saiba o que precisa ser feito para que você consiga seu primeiro emprego na área.",
       url: "https://avatars.githubusercontent.com/douglas541"
    },
    {
       username: "Isaac Brasil",
       numLike: "+9",
-      content: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+      content: "7 dicas essenciais para o novo profissional de TI (extra: meus 3 palpites de frameworks para aprender em 2021)",
       url: "https://avatars.githubusercontent.com/isaacbrasil"
    }]);
 

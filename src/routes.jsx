@@ -4,7 +4,7 @@ import { BrowserRouter, Route } from 'react-router-dom';
 import Landing from './pages/Landing';
 import Login from './pages/Login'
 import Register from './pages/Register'
-import UserProfile from './pages/UserProfile'
+import Profile from './pages/Profile'
 import MainSocial from './pages/MainSocial'
 import MainRank from './pages/MainRank'
 import MainEmprego from './pages/MainEmprego'
@@ -18,7 +18,7 @@ function Routes() {
          <Route path="/social" component={MainSocial} />
          <Route path="/empregos" component={MainEmprego} />
          <Route path="/rank" component={MainRank} />
-         <Route path="/profile" component={UserProfile} />
+         <Route path="/profile" component={Profile} />
       </BrowserRouter>
    );
 }
